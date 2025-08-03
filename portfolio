@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | GitHub Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #24292e;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0366d6;
+      border-bottom: 2px solid #e1e4e8;
+      padding-bottom: 5px;
+    }
+    .project {
+      background: #fff;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-left: 4px solid #0366d6;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #24292e;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p><a href="https://github.com/yourusername" style="color: #58a6ff;">@yourusername</a></p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hi! I'm a developer passionate about building open-source projects, learning new technologies, and solving real-world problems. I specialize in web development, automation, and data analysis.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>🔧 Project One</h3>
+      <p>Description of your project and what it does.</p>
+      <p><a href="https://github.com/yourusername/project-one">View on GitHub →</a></p>
+    </div>
+    <div class="project">
+      <h3>📊 Project Two</h3>
+      <p>Description of another project.</p>
+      <p><a href="https://github.com/yourusername/project-two">View on GitHub →</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: yourname@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">yourprofile</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. Built with ❤️ and GitHub Pages.
+  </footer>
+</body>
+</html>
